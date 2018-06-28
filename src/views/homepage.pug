@@ -1,0 +1,20 @@
+html
+    include head.pug
+    body(style={'background': 'rgb(23,42,58)'})
+        div(class="container") 
+            div(class="columns", style={height: '100%'})
+                div(class="column" , style={'align-self': 'center' , 'margin-bottom':'5%'})
+                    div(class="title is-1 has-text-centered has-text-white") Parent Playground
+                    div(class="login_box")
+                        div(class="field")
+                            label(class="label has-text-white") Username
+                            div(class="control")
+                                input(class="input" , type="text" , placeholder="Please input your username" , id="username") 
+                        div(class="field")
+                            label(class="label has-text-white") Password
+                            div(class="control")
+                                input(class="input" , type="password" , placeholder="Please input your password" , id="password") 
+                        div(class="field")
+                            div(class="control")
+                                button(class="button is-link" , style={'width':'100%'} , id="submit") Submit
+                        
